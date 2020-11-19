@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Stanley;
+    src: url(../fonts/Stanley\ DEMO.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    background-color: #f8faff;
+    border: 1px solid #e1e7f5;
+}
+
+.navbar {
+    background-color: none;
+    opacity: 100%;
+}
+
+.search input {
+    height: 35px;
+    border-radius: 20px;
+}
+
+.search button {
+    height: 35px;
+    background-color: #f8f9fa;
+    color: #84797d;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+}
+
+.user {}
+
+.user img {
+    border-radius: 50px;
+}
+
+.content {
+    margin: auto;
+}
+
+.content .title {
+    font-size: 120px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-family: Stanley;
+}
+
+.create-game {
+    margin: auto;
+    text-align: center;
+}
+
+.create-game .enter-code {
+    text-align: center;
+    display: inline-block;
+}
+
+.content .create-game a {
+    padding-bottom: 4rem;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+}
+
+.profile .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.profile .item-profile {
+    padding: 10px;
+}
+
+.profile .item-profile .item {
+    border: 1px solid #ced4da;
+    padding: 5px 10px 10px 10px;
+}
+
+.profile .item-profile .item .title-item {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile .item-profile .item img {
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.form-create-game {
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.form-create-game{
+    background-color: #41c4de;
+}
+
+.form-create-game h1 {
+    font-weight: 800;
+}
+
+.form-create-game h5 {
+    font-weight: 800;
+}
+
+.form-create-game form input,
+button {
+    font-weight: 700;
+}
+
+.form-create-game form div button {
+    font-weight: 1000;
+}
+
+footer {
+    padding: 30px 20px 10px 20px;
+}
+
+footer a {
+    color: black;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* .navbar {
+    background-color: rgb(82,64,120,0.9) !important;
+}
+
+.navbar li a {
+    color: white !important;
+}
+
+.navbar li a:hover {
+    color: black !important;
+} */
+
+
+/* modal css */
+
+.product_view .modal-dialog {
+    max-width: 800px;
+    width: 100%;
+}
+
+.product_view .modal-dialog .modal-body .row .product_content .type_question label {
+    width: 200px;
+    text-align: center;
+}
+
+.product_view .modal-dialog .modal-body .row .product_content .btn-ground button {
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product_view .modal-dialog .modal-body .row .product_content .btn-ground {
+    text-align: center;
+}
+
+.pre-cost {
+    text-decoration: line-through;
+    color: #a5a5a5;
+}
+
+.space-ten {
+    clear: both;
+    padding: 10px 0;
+}
+
+
+/* media Query */
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}

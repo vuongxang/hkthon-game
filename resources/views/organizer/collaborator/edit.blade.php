@@ -1,0 +1,1 @@
+@extends('organizer.layouts.app')
