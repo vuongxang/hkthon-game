@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::group(['namespace' => 'Organizer'], function () {
-    Route::redirect('/', '/home');
-    Route::get('/', 'HomeController@index')->name('organizer.home.index');
+    Route::redirect('/', '/game');
+//    Route::get('/', 'HomeController@index')->name('organizer.home.index');
     Route::prefix('game')->group(function () {
         Route::get('/', 'GameController@index')->name('organizer.game.index');
         Route::get('/create', 'GameController@create')->name('organizer.game.create');
